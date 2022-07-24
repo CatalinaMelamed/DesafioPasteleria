@@ -1,0 +1,762 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: radial-gradient(#432e2a 3px, transparent 4px), radial-gradient(#432e2a 3px, transparent 4px), linear-gradient( rgba(203,153,126,1)4px, transparent 0), linear-gradient(45deg, transparent 74px, transparent 75px, #a07269 75px, #a07269 76px, transparent 77px, transparent 109px), linear-gradient(-45deg, transparent 75px, transparent 76px, #a07269 76px,#a07269 77px, transparent 78px, transparent 109px), rgba(203,153,126,1);
+    background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    color:rgb(203, 153, 126);
+}
+
+.menu{
+    background: #834b42;   
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;     
+      
+}
+
+ .logo{     
+    font-family: 'Dancing Script';
+    text-align:left;
+    font-style: oblique;
+    font-size: 5em;
+    text-shadow: 0 06px#493633;
+    color: rgb(203, 153, 126); 
+    margin-left: 20px;   
+}
+
+.menu_items{
+    display: flex;
+    list-style: none;
+    color: white;
+    margin-right: 30px;
+    font-family: 'Teko', Arial, Helvetica; 
+    font-size: larger;     
+}
+.menu_items li{
+    margin: 0 5px;
+    border-radius: 0 5px;
+}
+
+.menu_items  li a{
+    color: #f8856e;
+    text-decoration: none;
+    display: block;
+}
+
+.active{
+    border-bottom: 3px solid #f8856e;
+}
+
+nav ul li a:hover {
+    background-color: #432e2a;
+    opacity: 0.7; 
+       
+}
+@media screen and (max-width: 1520px){
+    #image{
+        width: 400px;
+        height: 400px; 
+    }
+}
+
+@media screen and (max-width: 1210px){
+    .logo{
+        font-size: 4em;
+    }
+    .menu_items li a{
+        font-size: 16px;
+    }
+    #image{
+        width: 200px;
+        height: 200px;
+    }
+
+}
+
+@media screen and (max-width: 850px)
+{
+
+    #menu{
+        height:10vh;
+        background: #834b42;
+        height: 75px;
+        width: 100vw;    
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        font-size: 30px;       
+
+    }
+    
+    .menu_items{
+        
+        width: 100vw;        
+        display: flex;
+        background: #834b42;        
+        text-align: center;        
+        flex-direction: row;
+        font-size: larger;  
+    }
+    .menu_items li:hover{
+        background: none;
+    }
+    .menu_items li a{        
+        color: #f8856e;
+        font-weight: bold;
+        margin: 0 5px;       
+        align-items: center;        
+        color: #f8856e;
+        text-decoration: none;
+        display: block;
+    }
+
+    nav ul li a:hover {        
+        background-color: transparent;          
+    }
+    #image{
+        display: flex;        
+        margin: auto;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        border-radius: 3px;
+    }
+    #contenedorParrafo p{
+        
+        font-size: 1.2em;
+        font-family: 'Teko', Arial, Helvetica;
+        font-style: oblique;
+        color: #432e2a;
+        background: rgb(203, 153, 126);        
+        border: 1px;
+        display: table-cell;        
+    }
+
+}
+@media screen and (max-width: 665px)
+{
+    .menu{       
+        background: #834b42;
+        height: 155px;
+        width: 100%;    }
+
+    .logo{
+        font-size: 40px;
+    }
+
+    .menu_items{
+        width: 100%;
+        height: 5vh;        
+        display: flex;
+        background: #834b42;        
+        text-align: center;
+        justify-content: center;        
+        flex-direction: column;
+        font-size: larger;       
+    }
+    .menu_items li:hover{
+        background: none;
+    }
+    .menu_items li a{        
+        color: #f8856e;
+        font-weight: bold;
+        margin: 0 20px;       
+        align-items: center;        
+        color: #f8856e;
+        text-decoration: none;
+        display: block;
+    }
+
+    nav ul li a:hover {        
+        background-color: transparent;          
+    }
+
+    .active{
+        border-bottom: none;
+    }
+    .contenedorParrafo p{
+        text-align: center;
+        font-size: 1.2em;
+        font-family: 'Teko', Arial, Helvetica;
+        font-style: oblique;
+        color: #432e2a;
+        background: rgb(203, 153, 126);
+        padding-bottom: 6px;
+        border: 1px;        
+    }
+    #footer{
+        margin-top: 200px;
+        
+    }
+
+}
+
+
+/* ---------------- MAIN ----------------*/
+.seccionUno{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.premiumCakes{
+    font-family: 'Dancing Script';
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 3.5em;
+    color: #432e2a;
+    text-shadow: 0 05px#ffa18e;       
+}
+
+.imgPremiumCakes{
+   width: 500px; 
+   height: 500px;  
+}
+
+.seccionDos{
+    margin-top: 200px; 
+    text-align: center;
+}
+
+.contenedorParrafo{   
+    display: block;
+}
+.contenedorParrafo img{
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;   
+    text-align: center;    
+}
+
+.tituloPhilosophy{
+    font-family: 'Dancing Script';
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 3.5em;
+    color: #432e2a;
+    text-shadow: 0 05px#ffa18e;    
+}
+
+.contenedorParrafo p{
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Teko', Arial, Helvetica;
+    font-style: oblique;
+    color: #432e2a;
+    background: rgb(203, 153, 126);
+    padding-bottom: 6px;
+    border: 1px ;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
+    padding: 50px;            
+}
+/*--------------------FOOTER---------------------*/
+footer{
+    margin-top: 20px;
+    background: rgb(176,137,104);
+}
+
+.footer_txt{
+    display: flex;
+    flex-direction: column;    
+    margin-top: 20px;
+}
+.tituloFooter{
+    font-family: 'Dancing Script';    
+    font-style: oblique;
+    font-size: 2.5em;
+    color: #432e2a; 
+    text-shadow: 0 02px#ffa18e; 
+    margin-left: 20px;
+}
+label{
+    font-family: 'Teko', Arial, Helvetica;
+    color: #432e2a;
+    font-size: 1.2em;
+    margin-left: 20px;
+}
+
+footer ul li a{
+    font-family: 'Teko', Arial, Helvetica;
+    text-decoration: none;
+    margin-left: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #432e2a;
+    border-radius: 4px;
+}
+.finalFooter{
+    text-align: center;
+    font-family: 'Teko', Arial, Helvetica;
+    color: rgb(176,137,104);
+    background-color: #432e2a;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/*---------------------Contact us------------------*/
+.imgContact{
+    width: 500px;
+    height: 500px;  
+    margin-top: 5vw;    
+}
+
+#mapa{
+    margin-top: 10vw;
+}
+.contenedorFormulario{
+    display: flex;
+    
+    flex-direction: column;    
+    justify-content: center;
+}
+
+.formulario{
+    margin-top: 5vw;     
+}
+
+.bordesForm{        
+    height: 700px;
+    width: 600px;
+    border-radius: 3%;
+    border-color: #ffa18e;       
+}
+
+.formTitulo{
+    color: #432e2a;
+    text-shadow: 0 02px#ffa18e;     
+    font-family: 'Dancing Script';
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 2.5em;    
+    margin-right: 450px;    
+}
+
+.titulos{
+    font-family: 'Teko', Arial, Helvetica;
+    display: block;   
+    width: 22%;
+    padding: 5px;
+    margin-left: 10px;
+    
+}
+
+ .px{  
+    border: 1px solid transparent;
+    background: rgb(194, 82, 101);  
+    opacity: 0.7; 
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 10px; 
+    width: 90%;
+    height: 10px;   
+    text-align: center;      
+}
+
+.btn{    
+    text-align: center;   
+}
+
+
+.mapaTitulo{
+    color: #432e2a;
+    text-shadow: 0 02px#ffa18e;     
+    font-family: 'Dancing Script';
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 2.5em;    
+    
+}
+h5{
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Teko', Arial, Helvetica;
+    font-style: oblique;
+    color: #432e2a;    
+    padding-bottom: 6px;
+    border: 1px ;
+    border-radius: 20px;      
+}
+
+/*-------------------Gallery------------------*/
+.gallery_txt h1{
+    font-family: 'Dancing Script';
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 3.5em;
+    color: #432e2a;
+    text-shadow: 0 05px rgb(194, 82, 101);  
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+}
+
+.gallery_txt h3{
+    font-family: 'Dancing Script';
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 4em;
+    color: #432e2a; 
+    text-shadow: 0 05px rgb(194, 82, 101);    
+    display: flex;
+    justify-content: center;    
+}
+
+.galeria{
+    font-family: 'Dancing Script';
+}
+
+
+#w_gallery{
+
+    display:flex;
+    width: 50vw;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+.galeria h4{
+    font-family: 'Dancing Script';
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 3.5em;
+    color: rgb(194, 82, 101);  
+    text-shadow: 0 05px#ffa18e; 
+    margin-top: 5vw;
+}
+
+.linea{    
+    margin-bottom: 40px;
+}
+
+.contenedor-imagenes{
+    display:flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius:3px;
+}
+
+.contenedor-imagenes .imagen{
+    width: 32%;
+    position: relative;
+    height:250px;
+    margin-bottom:5px;
+    box-shadow: 0px 0px 3px 0px #432e2a;
+}
+
+.imagen img{
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgb(194, 82, 101);
+    opacity: 0.8;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s ease;
+}
+
+.overlay h2{
+    color: #fff;
+    font-weight: 300;
+    font-size:30px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.imagen:hover .overlay{
+    height:100%;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1000px){
+
+
+    .contenedor-imagenes{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .contenedor-imagenes{
+        width: 90%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:450px){
+    h1{
+        font-size:22px;
+    }
+    .contenedor-imagenes{
+        width: 98%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 80%;
+    }
+
+    #gallery_txt h1{
+        font-family: 'Dancing Script';
+        text-align: center;
+        font-weight: bold;
+        font-style: oblique;
+        font-size: 4em;
+        color: #432e2a;
+        text-shadow: 0 05px rgb(194, 82, 101);  
+        display: flex;
+        justify-content: center;
+        margin-top: 5vw;
+    }
+    
+    #gallery_txt h3{
+        font-family: 'Dancing Script';
+        text-align: center;
+        font-weight: bold;
+        font-style: oblique;
+        font-size: 3em;
+        color: #432e2a; 
+        text-shadow: 0 05px rgb(194, 82, 101);      
+    }
+
+    #galeria h4{
+        font-family: 'Dancing Script';
+        text-align: center;
+        font-weight: bold;
+        font-style: oblique;
+        font-size: 3em;
+        color: rgb(194, 82, 101);  
+        text-shadow: 0 05px#ffa18e; 
+        margin-top: 5vw;
+    }
+
+}
+
+
+
+
+/*-------------------Reservation------------------*/
+
+.formulario2{
+    height: 500px;
+    width: 500px;
+    border-radius: 3%;
+    border-color: #ffa18e;     
+    margin-left: 650px;
+    align-items:center;
+    margin-top: 100px;
+}
+
+.px2{    
+    border: 1px solid transparent;
+    background: rgb(176,137,104);    
+    border-radius: 15px;
+    padding: 20px;
+    width: 90%;
+    height: 20px;
+    margin-left: 10px;
+    text-align: center;       
+}
+
+.reservation{
+    display: flex;
+    position: absolute;
+}
+
+.reservation2{
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+}
+
+.prueba{    
+    background-image: url(../image/difcakes.png);  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;       
+} 
+
+.formTitul02{
+    color: #432e2a;
+    text-shadow: 0 02px#ffa18e;     
+    font-family: 'Dancing Script';
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 2.5em;    
+    margin-right: 450px;
+    margin-top: 200px;
+}
+
+/*Menu*/
+
+.card{
+    display: flex;
+    margin-left: 450px;
+    margin-top: 100px;
+}
+
+.boxTitulos{
+    margin-top: 100px;
+}
+
+.tituloMenu{
+    color: #432e2a;
+    text-shadow: 0 05px#ffa18e;     
+    font-family: 'Dancing Script';
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 6em;  
+}
+
+.tituloMenu2{
+    color: #432e2a;
+    text-shadow: 0 05px#ffa18e;     
+    font-family: 'Dancing Script';
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 3em;  
+}
+
+/*AboutUs*/
+
+.history{
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Teko', Arial, Helvetica;
+    font-style: oblique;
+    color: #432e2a;
+    background: rgb(203, 153, 126);
+    padding-bottom: 6px;
+    border: 1px ;
+    border-radius: 20px;    
+    margin-right: 450px;
+    margin-bottom: 100px;
+    padding: 50px;
+}
+
+.titulohistory{
+    color: #432e2a;
+    text-shadow: 0 02px#ffa18e;     
+    font-family: 'Dancing Script';
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 3.5em;    
+    margin-right: 450px; 
+}
+
+.coocking{    
+    position: relative;
+}
+/*---------------INDEX GRID----------------*/
+.bodyPadreGrid{
+    display: grid; 
+    grid-template-areas: 
+    "header header header header header header"
+    "main main main main main main"
+    "footer footer footer footer footer footer";
+}
+
+header{
+    grid-area:header;
+    top: 0;
+    z-index: 2; 
+    position: sticky;       
+}
+
+main{
+    grid-area: main;   
+    top: 0;
+    z-index: 1;  
+}
+
+footer{
+    grid-area: footer;  
+    bottom: 0;
+    z-index: 1;
+}
+
+
+/*---------------CONTACT GRID-----------------*/
+.mainContact{
+    display: grid; 
+    grid-template-areas:
+    "header header header header header header"
+    "main main main main main main"
+    "imagenCentral imagenCentral formulario formulario mapa mapa"
+    "footer footer footer footer footer footer" 
+    
+
+}
+#formu_lario{
+    grid-area: formulario;
+}
+
+.contenedorImagen {
+    grid-area: imagenCentral;
+}
+
+#mapa{
+    grid-area: mapa;
+}
+
+
+
+/*-----------------Gallerry Grid--------------*/
+.bodyPadreGrid{
+    display: grid; 
+    grid-template-areas: 
+    "header header header header header header"
+    "main main main main main main"
+    "footer footer footer footer footer footer";
+}
+.mainGallery{
+    display: grid;
+    grid-template-areas:    
+    "gallery_txt gallery_txt gallery_txt"
+    "w_gallery w_gallery w_gallery w_gallery w_gallery w_gallery"
+    ;
+}
+
+#gallery_txt {
+    grid-area: gallerytitle;
+}
+
+#w_gallery{
+    grid-area: gallery;
+}
+
