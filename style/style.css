@@ -12,199 +12,36 @@ body{
 }
 
 .menu{
-    background: rgb(203,153,126);
-    background: radial-gradient(circle, rgba(203,153,126,1) 0%, rgba(131,75,66,1) 74%);
-    height: 75px;
-    width: 100vw;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;     
-      
+    background: rgb(123, 160, 156);          
+}
+
+.imgLogo{
+    width:80px; 
+    height:80px;
 }
 
  .logo{     
-    font-family: 'Dancing Script';
-    text-align:left;
+    font-family: 'Dancing Script';    
     font-style: oblique;
     font-size: 5em;
     text-shadow: 0 06px#493633;
-    color: rgb(203, 153, 126); 
-    margin-left: 20px;   
+    color: rgb(203, 153, 126);       
 }
 
-.menu_items{
-    display: flex;
-    list-style: none;
-    color: white;
-    margin-right: 30px;
+.menu_items{      
+    color: rgb(31, 197, 183);   
     font-family: 'Teko', Arial, Helvetica; 
-    font-size: larger;     
+    font-size: x-large;     
 }
-.menu_items li{
-    margin: 0 5px;
-    border-radius: 0 5px;
-}
+
 
 .menu_items  li a{
-    color: #f8856e;
-    text-decoration: none;
-    display: block;
+    color: rgb(121, 75, 51);
+    text-decoration: none;    
 }
-
-.active{
-    border-bottom: 3px solid #f8856e;
-}
-
-nav ul li a:hover {
-    background-color: #432e2a;
-    opacity: 0.7; 
-       
-}
-@media screen and (max-width: 1520px){
-    #image{
-        width: 400px;
-        height: 400px; 
-    }
-}
-
-@media screen and (max-width: 1210px){
-    .logo{
-        font-size: 4em;
-    }
-    .menu_items li a{
-        font-size: 16px;
-    }
-    #image{
-        width: 200px;
-        height: 200px;
-    }
-
-}
-
-@media screen and (max-width: 850px)
-{
-
-    #menu{
-        height:10vh;
-        background: #834b42;
-        height: 75px;
-        width: 100vw;    
-        justify-content: space-between;
-        align-items: center;
-    }
-    .logo{
-        font-size: 30px;       
-
-    }
-    
-    .menu_items{
-        
-        width: 100vw;        
-        display: flex;
-        background: #834b42;        
-        text-align: center;        
-        flex-direction: row;
-        font-size: larger;  
-    }
-    .menu_items li:hover{
-        background: none;
-    }
-    .menu_items li a{        
-        color: #f8856e;
-        font-weight: bold;
-        margin: 0 5px;       
-        align-items: center;        
-        color: #f8856e;
-        text-decoration: none;
-        display: block;
-    }
-
-    nav ul li a:hover {        
-        background-color: transparent;          
-    }
-    #image{
-        display: flex;        
-        margin: auto;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        border-radius: 3px;
-    }
-    #contenedorParrafo p{
-        
-        font-size: 1.2em;
-        font-family: 'Teko', Arial, Helvetica;
-        font-style: oblique;
-        color: #432e2a;
-        background: rgb(203, 153, 126);        
-        border: 1px;
-        display: table-cell;        
-    }
-
-}
-@media screen and (max-width: 665px)
-{
-    .menu{       
-        background: #834b42;
-        height: 155px;
-        width: 100%;    }
-
-    .logo{
-        font-size: 40px;
-    }
-
-    .menu_items{
-        width: 100%;
-        height: 5vh;        
-        display: flex;
-        background: #834b42;        
-        text-align: center;
-        justify-content: center;        
-        flex-direction: column;
-        font-size: larger;       
-    }
-    .menu_items li:hover{
-        background: none;
-    }
-    .menu_items li a{        
-        color: #f8856e;
-        font-weight: bold;
-        margin: 0 20px;       
-        align-items: center;        
-        color: #f8856e;
-        text-decoration: none;
-        display: block;
-    }
-
-    nav ul li a:hover {        
-        background-color: transparent;          
-    }
-
-    .active{
-        border-bottom: none;
-    }
-    .contenedorParrafo p{
-        text-align: center;
-        font-size: 1.2em;
-        font-family: 'Teko', Arial, Helvetica;
-        font-style: oblique;
-        color: #432e2a;
-        background: rgb(203, 153, 126);
-        padding-bottom: 6px;
-        border: 1px;        
-    }
-    #footer{
-        margin-top: 200px;
-        
-    }
-
-}
-
 
 /* ---------------- MAIN ----------------*/
-.seccionUno{
-    margin-top: 100px;
-    text-align: center;
-}
+
 
 .premiumCakes{
     font-family: 'Dancing Script';
@@ -213,28 +50,28 @@ nav ul li a:hover {
     font-style: oblique;
     font-size: 3.5em;
     color: #432e2a;
-    text-shadow: 0 05px#ffa18e;       
+    text-shadow: 0 05px#ffa18e;    
+    margin-top: 2rem;   
 }
 
 .imgPremiumCakes{
-   width: 500px; 
-   height: 500px;  
+   width: 800px; 
+   height: 600px;  
+ 
 }
 
-.seccionDos{
-    margin-top: 200px; 
-    text-align: center;
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(108%);
+  }
+
+.slide img{
+    height: 65vh;
+
 }
 
-.contenedorParrafo{   
-    display: block;
-}
-.contenedorParrafo img{
-    width: 500px;
-    height: 500px;
-    border-radius: 5px;   
-    text-align: center;    
-}
+
 
 .tituloPhilosophy{
     font-family: 'Dancing Script';
@@ -252,25 +89,39 @@ nav ul li a:hover {
     font-family: 'Teko', Arial, Helvetica;
     font-style: oblique;
     color: #432e2a;
-    background: rgb(203, 153, 126);
-    padding-bottom: 6px;
-    border: 1px ;
-    margin-left: 200px;
-    margin-right: 200px;
-    border-radius: 20px;
-    padding: 50px;            
+    background: rgb(227,172,142);
+    background: radial-gradient(circle, rgba(227,172,142,1) 0%, rgba(187,108,95,1) 100%);
+    border-radius: 5px;
+    border: 5px ;   
+                
 }
+
+@media only screen and (min-width: 333px) and (max-width: 587px){
+    .imgPremiumCakes{
+        width: 300px; 
+        height: 100px;        
+    }
+    .logo{
+        font-size: 3rem;       
+
+    }
+
+}
+@media only screen and (min-width: 588px) and (max-width: 1256px){
+    .imgPremiumCakes{
+        width: 600px; 
+        height: 200px;        
+    }
+    .logo{
+        font-size: 3rem;       
+    }
+} 
 /*--------------------FOOTER---------------------*/
 footer{
-    margin-top: 20px;
+    
     background: rgb(176,137,104);
 }
 
-.footer_txt{
-    display: flex;
-    flex-direction: column;    
-    margin-top: 20px;
-}
 .tituloFooter{
     font-family: 'Dancing Script';    
     font-style: oblique;
@@ -286,24 +137,23 @@ label{
     margin-left: 20px;
 }
 
+footer ul{
+    list-style:none;
+}
 footer ul li a{
     font-family: 'Teko', Arial, Helvetica;
-    text-decoration: none;
-    margin-left: 25px;
+    text-decoration: none;    
     text-transform: uppercase;
     font-weight: bold;
     color: #432e2a;
     border-radius: 4px;
+    text-decoration: none;
 }
 .finalFooter{
     text-align: center;
     font-family: 'Teko', Arial, Helvetica;
     color: rgb(176,137,104);
     background-color: #432e2a;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    margin-top: 10px;
 }
 
 /*---------------------Contact us------------------*/
@@ -620,29 +470,11 @@ h5{
     margin-top: 200px;
 }
 
-/*Menu*/
-
-.card{
-    display: flex;
-    margin-left: 450px;
-    margin-top: 100px;
+/*----------------MENU---------------*/
+.imgMenu{
+    width: 400px;
 }
-
-.boxTitulos{
-    margin-top: 100px;
-}
-
 .tituloMenu{
-    color: #432e2a;
-    text-shadow: 0 05px#ffa18e;     
-    font-family: 'Dancing Script';
-    text-align: center;
-    font-weight: bold;
-    font-style: oblique;
-    font-size: 6em;  
-}
-
-.tituloMenu2{
     color: #432e2a;
     text-shadow: 0 05px#ffa18e;     
     font-family: 'Dancing Script';
@@ -652,7 +484,33 @@ h5{
     font-size: 3em;  
 }
 
-/*AboutUs*/
+.bannerMenuTxt{
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Teko', Arial, Helvetica;   
+    color: #432e2a;
+    background: rgb(227,172,142);
+    background: radial-gradient(circle, rgba(227,172,142,1) 0%, rgba(187,108,95,1) 100%);
+    border-radius: 10px;    
+}
+
+.cardsLetras{
+    color:     #cc7563;    
+    font-family: 'Teko', Arial, Helvetica;  
+}
+
+.colorLink{
+    color: #432e2a;
+    text-decoration: none;
+    font-family: 'Teko', Arial, Helvetica; 
+}
+
+.suscribe_txt{
+    font-size: 1.2em;
+    font-family: 'Teko', Arial, Helvetica;   
+    color: #432e2a;
+}
+/*----------------------------AboutUs---------------------*/
 
 .history{
     text-align: center;
