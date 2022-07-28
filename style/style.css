@@ -5,10 +5,11 @@
 }
 
 body{
-    background: radial-gradient(#432e2a 3px, transparent 4px), radial-gradient(#432e2a 3px, transparent 4px), linear-gradient( rgba(203,153,126,1)4px, transparent 0), linear-gradient(45deg, transparent 74px, transparent 75px, #a07269 75px, #a07269 76px, transparent 77px, transparent 109px), linear-gradient(-45deg, transparent 75px, transparent 76px, #a07269 76px,#a07269 77px, transparent 78px, transparent 109px), rgba(203,153,126,1);
+    background: radial-gradient(#432e2a 3px, transparent 4px), radial-gradient(#432e2a 3px, transparent 4px), linear-gradient( rgba(203,153,126,1)4px, transparent 0), linear-gradient(45deg, transparent 74px, transparent 75px, #a07269 75px, #a07269 76px, transparent 77px, transparent 109px), linear-gradient(-45deg, transparent 75px, transparent 76px, #a07269 76px,#a07269 77px, transparent 78px, transparent 109px), rgb(255, 255, 255);
     background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
     background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
     color:rgb(203, 153, 126);
+    overflow-x: hidden;
 }
 
 .menu{
@@ -59,8 +60,6 @@ body{
    height: 600px;  
  
 }
-
-
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
     filter: invert(108%);
